@@ -10,8 +10,12 @@
 @tailwind utilities;
 
 @layer base {
+    html {
+        @apply scroll-smooth;
+    }
+
     body {
-        @apply tracking-wider text-whiteColor bg-primaryColor font-dmsans;
+        @apply tracking-wider text-whiteColor bg-primaryColor font-dmsans dark:bg-darkColor;
     }
 
     section {
